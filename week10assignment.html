@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#7952b3">
+    <title>App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" >
+    <title>Week 10</title>
+
+  </head>
+  <header>
+    <h1>Pick Your Chore</h1>
+  </header>
+  
+  <body style="background-color: rgb(123, 192, 169);" class="container">
+    <br>
+    <div class="card">
+<div class="card-body">
+    <div class="row">
+    <div class="col-sm">
+        <div class="form-group">
+            <label for="new-start-week">Day of the Week:</label>
+<input type="text" class="form-control" id="new-start-week" placeholder="Day-Mon_Fri">
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="new-start-week">Chore:</label>
+                <br>
+        <input type="text" class="form-control" id="new-chore-week">
+        
+                </div>
+                <div>
+                    <p>Who is doing it?</p>
+                   <input type="text" class="form-control" id="new-name" placeholder="Name">
+                </div>
+            </div>
+    </div>
+    <br>
+    <button id="add" class="btn-danger form-control">Submit</button>
+</div>
+
+<table id="list" class="table table-black">
+        <tr>
+            <th>Start Week:</th>
+            <th>Chore:</th>
+            <th>Name:</th>
+                  </tr>
+    </table>
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="week10assignment.js"></script>
+</body>
+</html>
